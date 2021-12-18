@@ -127,7 +127,7 @@ void Game::initEnemies()
 
 void Game::initFonts()
 {
-	if (this->font.loadFromFile("Fonts/Roboto-Black.ttf")) 
+	if (this->font.loadFromFile("Roboto-Black.ttf")) 
 	{
 		std::cout << "ERROR: Failed to load font" << "\n";
 	}
