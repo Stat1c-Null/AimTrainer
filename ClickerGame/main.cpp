@@ -5,6 +5,9 @@
 
 int main()
 {
+	//Init srand
+	std::srand(static_cast<unsigned>(time(NULL)));
+
 	//Startuem Dvizok Igry
 	Game game;
 
